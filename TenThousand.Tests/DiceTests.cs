@@ -13,6 +13,7 @@ namespace TenThousand.Tests {
         public void DiceMustBeRoledToHaveValueTest() {
             var dice = new Dice();
             Assert.IsFalse(dice.IsRoled);
+            Assert.True(dice.Value == 0);
         }
 
         [Test]
