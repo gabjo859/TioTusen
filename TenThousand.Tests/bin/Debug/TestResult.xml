@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\Projekt\TioTusen\TenThousand.Tests\bin\Debug\TenThousand.Tests.dll" total="42" errors="0" failures="0" not-run="0" inconclusive="1" ignored="0" skipped="0" invalid="0" date="2012-10-29" time="17:45:44">
+  <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.4963" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.5.10\bin\net-2.0" machine-name="UL30JT" user="Gabbe" user-domain="UL30JT" />
+  <culture-info current-culture="sv-SE" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="D:\Projekt\TioTusen\TenThousand.Tests\bin\Debug\TenThousand.Tests.dll" executed="True" result="Success" success="True" time="0.647" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="TenThousand" executed="True" result="Success" success="True" time="0.647" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.647" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="DiceCombinationAnalyzerTests" executed="True" result="Success" success="True" time="0.611" asserts="0">
+                <results>
+                  <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.FourDiceWithOnesAndFivesTest" executed="True" result="Success" success="True" time="0.012" asserts="1" />
+                  <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.HasAnythingASingleFiveTest" executed="True" result="Success" success="True" time="0.005" asserts="1" />
+                  <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.HasAnythingASingleOneTest" executed="True" result="Success" success="True" time="0.010" asserts="1" />
+                  <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.HasAnythingThreeOfSomethingTest" executed="True" result="Success" success="True" time="0.011" asserts="1" />
+                  <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.HasNothingTest" executed="True" result="Success" success="True" time="0.011" asserts="1" />
+                  <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.SingleDiceWithValueFiveTest" description="A single dice with value five should give a score of 50" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+                  <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.SingleDiceWithValueOneTest" description="A single dice with value one should give a score of 100" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                  <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.StraightGivesSixHundredTest" description="Six dices with a straight from 1-6 should give a score of 600" executed="True" result="Success" success="True" time="0.012" asserts="1" />
+                  <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeDiceWithOnesAndFivesTest" executed="True" result="Success" success="True" time="0.018" asserts="2" />
+                  <test-suite type="ParameterizedTest" name="ThreeOrMoreDicesWithValueOneGivesThousandPointsTest" description="Three or more dices with value one gives a score of 1000*2^(numberOfDices-3)" executed="True" result="Success" success="True" time="0.070" asserts="0">
+                    <results>
+                      <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeOrMoreDicesWithValueOneGivesThousandPointsTest(3)" executed="True" result="Success" success="True" time="0.008" asserts="1" />
+                      <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeOrMoreDicesWithValueOneGivesThousandPointsTest(4)" executed="True" result="Success" success="True" time="0.012" asserts="1" />
+                      <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeOrMoreDicesWithValueOneGivesThousandPointsTest(5)" executed="True" result="Success" success="True" time="0.015" asserts="1" />
+                      <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeOrMoreDicesWithValueOneGivesThousandPointsTest(6)" executed="True" result="Success" success="True" time="0.026" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="ThreeOrMoreOfAnyValueExceptOneTest" description="Three or more of any value (except one) should give a score of (numberOfDices - 2) * 100 * diceValue" executed="True" result="Success" success="True" time="0.345" asserts="0">
+                    <results>
+                      <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeOrMoreOfAnyValueExceptOneTest(2,3)" executed="True" result="Success" success="True" time="0.008" asserts="1" />
+                      <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeOrMoreOfAnyValueExceptOneTest(2,4)" executed="True" result="Success" success="True" time="0.010" asserts="1" />
+                      <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeOrMoreOfAnyValueExceptOneTest(2,5)" executed="True" result="Success" success="True" time="0.012" asserts="1" />
+                      <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeOrMoreOfAnyValueExceptOneTest(2,6)" executed="True" result="Success" success="True" time="0.025" asserts="1" />
+                      <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeOrMoreOfAnyValueExceptOneTest(3,3)" executed="True" result="Success" success="True" time="0.009" asserts="1" />
+                      <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeOrMoreOfAnyValueExceptOneTest(3,4)" executed="True" result="Success" success="True" time="0.011" asserts="1" />
+                      <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeOrMoreOfAnyValueExceptOneTest(3,5)" executed="True" result="Success" success="True" time="0.012" asserts="1" />
+                      <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeOrMoreOfAnyValueExceptOneTest(3,6)" executed="True" result="Success" success="True" time="0.024" asserts="1" />
+                      <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeOrMoreOfAnyValueExceptOneTest(4,3)" executed="True" result="Success" success="True" time="0.007" asserts="1" />
+                      <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeOrMoreOfAnyValueExceptOneTest(4,4)" executed="True" result="Success" success="True" time="0.010" asserts="1" />
+                      <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeOrMoreOfAnyValueExceptOneTest(4,5)" executed="True" result="Success" success="True" time="0.012" asserts="1" />
+                      <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeOrMoreOfAnyValueExceptOneTest(4,6)" executed="True" result="Success" success="True" time="0.026" asserts="1" />
+                      <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeOrMoreOfAnyValueExceptOneTest(5,3)" executed="True" result="Success" success="True" time="0.009" asserts="1" />
+                      <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeOrMoreOfAnyValueExceptOneTest(5,4)" executed="True" result="Success" success="True" time="0.012" asserts="1" />
+                      <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeOrMoreOfAnyValueExceptOneTest(5,5)" executed="True" result="Success" success="True" time="0.013" asserts="1" />
+                      <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeOrMoreOfAnyValueExceptOneTest(5,6)" executed="True" result="Success" success="True" time="0.029" asserts="1" />
+                      <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeOrMoreOfAnyValueExceptOneTest(6,3)" executed="True" result="Success" success="True" time="0.008" asserts="1" />
+                      <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeOrMoreOfAnyValueExceptOneTest(6,4)" executed="True" result="Success" success="True" time="0.010" asserts="1" />
+                      <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeOrMoreOfAnyValueExceptOneTest(6,5)" executed="True" result="Success" success="True" time="0.013" asserts="1" />
+                      <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreeOrMoreOfAnyValueExceptOneTest(6,6)" executed="True" result="Success" success="True" time="0.027" asserts="1" />
+                    </results>
+                  </test-suite>
+                  <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.ThreePairsGivesThreeHundredTest" description="Three pairs should give a score of 300" executed="True" result="Success" success="True" time="0.012" asserts="1" />
+                  <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.TwoDiceWithValueFiveTest" executed="True" result="Success" success="True" time="0.006" asserts="1" />
+                  <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.TwoDiceWithValueOneAndFiveTest" executed="True" result="Success" success="True" time="0.038" asserts="1" />
+                  <test-case name="TenThousand.Tests.DiceCombinationAnalyzerTests.TwoDiceWithValueOneTest" executed="True" result="Success" success="True" time="0.006" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="DiceTests" executed="True" result="Success" success="True" time="0.012" asserts="0">
+                <results>
+                  <test-case name="TenThousand.Tests.DiceTests.DiceHasValueAfterRole" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="TenThousand.Tests.DiceTests.DiceMustBeRoledToHaveValueTest" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="TenThousand.Tests.DiceTests.MaxValueIsSixTest" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                  <test-case name="TenThousand.Tests.DiceTests.MinValueIsOneTest" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="GameEngineTests" executed="True" result="Inconclusive" success="False" time="0.002" asserts="0">
+                <results>
+                  <test-case name="TenThousand.Tests.GameEngineTests.CreateNewGameTest" executed="True" result="Inconclusive" success="False" time="0.000" asserts="0">
+                    <reason>
+                      <message><![CDATA[]]></message>
+                    </reason>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
