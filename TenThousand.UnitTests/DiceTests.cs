@@ -1,29 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using NUnit.Framework;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TenThousand.GameEngine;
 
-namespace TenThousand.Tests {
-    [TestFixture]
+namespace TenThousand.UnitTests {
+    [TestClass]
     public class DiceTests {
-
-        [Test]
+        [TestMethod]
         public void DiceMustBeRoledToHaveValueTest() {
             var dice = new Dice();
             Assert.IsFalse(dice.IsRoled);
-            Assert.True(dice.Value == 0);
         }
 
-        [Test]
+        [TestMethod]
         public void DiceHasValueAfterRole() {
             var dice = new Dice();
             dice.Role();
             Assert.IsTrue(dice.IsRoled);
         }
 
-        [Test]
+        [TestMethod]
         public void MaxValueIsSixTest() {
             var dice = new Dice();
             int maxValue = 0;
@@ -35,7 +30,7 @@ namespace TenThousand.Tests {
             Assert.AreEqual(6, maxValue);
         }
 
-        [Test]
+        [TestMethod]
         public void MinValueIsOneTest() {
             var dice = new Dice();
             int minValue = 6;
