@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using TenThousand.GameEngine;
+using TenThousand.GameEngine.Entities;
 
 namespace TenThousand.UnitTests {
     [TestClass]

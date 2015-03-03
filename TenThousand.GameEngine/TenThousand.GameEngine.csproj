@@ -40,11 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dice.cs" />
+    <Compile Include="Entities\Dice.cs" />
     <Compile Include="Entities\Game.cs" />
     <Compile Include="Entities\Player.cs" />
     <Compile Include="GameEngine.cs" />
+    <Compile Include="GameService.cs" />
     <Compile Include="Interfaces\IDice.cs" />
+    <Compile Include="Interfaces\IPlayerInputService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DiceCombinationAnalyzer.cs" />
   </ItemGroup>

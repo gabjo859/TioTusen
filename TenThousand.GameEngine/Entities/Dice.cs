@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using TenThousand.GameEngine.Interfaces;
 
-namespace TenThousand.GameEngine {
+namespace TenThousand.GameEngine.Entities {
     public class Dice : IDice {
 
         private Random random;
