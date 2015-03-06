@@ -57,6 +57,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DiceCombinationAnalyzerTests.cs" />
     <Compile Include="GameServiceTests.cs" />
+    <Compile Include="InputServiceMock.cs" />
     <Compile Include="TestUtils.cs" />
   </ItemGroup>
   <ItemGroup>

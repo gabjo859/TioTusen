@@ -14,8 +14,19 @@ namespace TenThousand.GameEngine {
             this.playerInputService = playerInputService;
         }
 
-        public void playTurn(Player player) {
-
+        public void PlayTurn(Player player) {
+            IEnumerable<IDice> dices = Enumerable.Range(0, 6).Select(x => new Dice());
+            dices = playerInputService.RollDices(player, dices);
+            if (DiceCombinationAnalyzer.HasAnything(dices)) {
+                var savedDices = playerInputService.GetSavedDices(player, dices);
+                player.CurrentScore = DiceCombinationAnalyzer.Analyze(savedDices);
+                if (player.TotalScore >= 1000 || player.CurrentScore  >= 1000) {
+                    var stay = playerInputService.GetUserDecisionStay(player);
+                    if (stay) {
+                        player.TotalScore += player.CurrentScore;
+                    }
+                }
+            }
         }
     }
 }
